@@ -1,5 +1,5 @@
 
-file1 = open('puzzle01.txt', 'r')
+file1 = open('test.txt', 'r')
 Lines = file1.readlines()
 
 count = 0

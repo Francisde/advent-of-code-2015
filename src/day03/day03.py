@@ -34,8 +34,6 @@ print("TASK 1 - Visited_Locations = {}".format(len(visited_houses)))
 # Task 2
 
 count = 0
-floor_count = 0
-character_sent_santa_to_basement = 1
 visited_houses = []
 current_location_santa = (0,0)
 current_location_robo = (0,0)

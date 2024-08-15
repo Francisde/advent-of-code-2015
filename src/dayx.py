@@ -5,8 +5,8 @@ Lines = file1.readlines()
 count = 0
 
 for line in Lines:
-
-    print("Line {}: {}".format(count, line.strip()))
+    input_line= line.strip()
+    print("Line {}: {}".format(count, input_line))
     count += 1
 
 

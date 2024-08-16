@@ -21,13 +21,13 @@ def look_and_say(input_sequence, num):
                 char_counter += 1
         new_sequence += "{}{}".format(char_counter, current_char)
         current_sequence = new_sequence
-        print("Iteration: {}, sequence: {}".format(i + 1, current_sequence))
+
     return current_sequence
 
 
 count = 0
 start_sequence = ""
-iterations = 50
+iterations = 40
 for line in Lines:
     input_line= line.strip()
     print("Line {}: {}".format(count, input_line))
@@ -39,4 +39,6 @@ for line in Lines:
 result = look_and_say(start_sequence, iterations)
 print("TASK 1 - string length: {}".format(len(result)))
 
-print("TASK 2 - ")
+iterations = 50
+result = look_and_say(start_sequence, iterations)
+print("TASK 2 - string length: {}".format(len(result)))

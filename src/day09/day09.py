@@ -1,5 +1,5 @@
-import itertools
-from itertools import combinations, permutations
+
+from itertools import permutations
 
 file1 = open('puzzle09.txt', 'r')
 Lines = file1.readlines()
